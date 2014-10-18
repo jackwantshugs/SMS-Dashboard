@@ -43,6 +43,10 @@ header {
     height:50px;
     border-bottom:1px solid rgba(127, 140, 141, 0.1);
 }
+.messageThreadPreview:hover {
+/*    background:rgba(127, 140, 141, 0.1);*/
+    background-color: rgba(52, 152, 219, 0.3);
+}
 
 #listOfMessages {
     border-right: 1px solid rgba(127, 140, 141, 0.3);
