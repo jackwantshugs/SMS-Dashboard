@@ -22,6 +22,7 @@ $(".messageThreadPreview").click(function(){
         else{
             sentReceived = "Received";
         }
+        $("#nameNumber").html(message[0].initiated_by);
         $(".messages").append("<div class='message " + sentReceived +"'><p class='messageBody'>" + message[0].messages[i].message + "</p><p class='messageMeta'>" + sentReceived + " at " + message[0].messages[i].created_at + "</p>");
     }
 });    
